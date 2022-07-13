@@ -22,7 +22,7 @@ alert("perimeter of the square " + perimeter);
 
 var radius = prompt("enter the radius of the circle");
 var area = (3.14*(radius*2));
-alert("circle area " + area);
+alert("circle area " + area.toFixed(2));
 
 var distance = prompt("enter the distance in kilometers between the two cities");
 var time = prompt("how many hours you want to get from one city to another");
@@ -34,4 +34,4 @@ const euro = (29.6);
 
 var giveMoney = prompt("how many dollars do you have");
 var getMoney = ((dollar/euro)*giveMoney);
-alert("get " + getMoney + " euro");
+alert("get " + getMoney.toFixed(2) + " euro");
